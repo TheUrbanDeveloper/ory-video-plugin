@@ -9,7 +9,7 @@ export type PropTypes = ContentPluginProps<{ src: string, caption: string }>
 
 const Video = (props: PropTypes) => (
   <MuiThemeProvider theme={createMuiTheme()}>
-    {props.readOnly ? <Display {...props} /> : <Form {...props} />}
+    <Display {...props} />
   </MuiThemeProvider>
 )
 
