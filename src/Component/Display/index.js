@@ -1,6 +1,6 @@
 // @flow
 import React from 'react'
-import PlayArrow from 'material-ui/svg-icons/av/play-arrow'
+import PlayArrowIcon from 'material-ui-icons/PlayArrow'
 import { iconStyle } from '../common.js'
 import ReactPlayer from 'react-player'
 import type { PropTypes } from '../index.js'
@@ -42,7 +42,7 @@ const Display = ({ state: { src }, readOnly }: PropTypes) =>
     </div>
   ) : (
     <div className="ory-plugins-content-video-placeholder">
-      <PlayArrow style={iconStyle} />
+      <PlayArrowIcon style={iconStyle} />
     </div>
   )
 

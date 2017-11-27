@@ -1,6 +1,6 @@
 {
   "name": "ory-editor-plugins-video",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/index.js",
   "author": "ORY GmbH - Modified by MaxKelsen Pty Ltd.",
   "license": "GNU Lesser General Public License v3.0",
