@@ -1,6 +1,6 @@
 {
   "name": "ory-editor-plugins-video",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./lib/index.js",
   "author": "ORY GmbH - Modified by MaxKelsen Pty Ltd.",
   "license": "GNU Lesser General Public License v3.0",
@@ -25,7 +25,7 @@
     "material-ui": "^1.0.0-beta.21",
     "material-ui-icons": "^1.0.0-beta.17",
     "ory-editor-core": "0.0.0",
-    "ory-editor-ui": "0.0.0",
+    "ory-editor-ui": "git+ssh://git@github.com/MaxKelsen/ory-editor-ui.git",
     "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",
     "postcss-nested": "^2.1.2",
